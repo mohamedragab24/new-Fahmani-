@@ -1,0 +1,27 @@
+name: fahmani_app
+description: "تطبيق فهّمني التعليمي للربط التلقائي ومشغل الفيديو"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  cloud_functions: ^4.6.8
+  video_player: ^2.8.2
+  chewie: ^1.7.5
+  app_links: ^3.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
